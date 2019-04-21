@@ -1,5 +1,5 @@
 # OutputTaskFile
-Bu çalışmada temel olarak basitçe şifrelenmiş matematiksel işlem içeren bir dizi veriyi ilkel bir veritabanı kullanarak gerçek haline dönüştürdük ve hesaplayarak bulduğunuz matematiksel işlemin sonucunu dosyanın sonuna yazdık.
+Bu çalışmada temel olarak basitçe şifrelenmiş matematiksel işlem içeren bir dizi veri ilkel bir veritabanı kullanılarak gerçek haline dönüştürüldü ve hesaplanarak bulunan matematiksel işlemin sonucu dosyanın sonuna yazdırıldı.
 
 ### How To Run
 Dosyaları bilgisayarınızda hangi dizinde tutuyorsanız o path'leri sırasıyla alıyoruz.  <br/>
