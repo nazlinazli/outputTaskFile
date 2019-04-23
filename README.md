@@ -1,17 +1,15 @@
 # OutputTaskFile
-Bu çalışmada temel olarak basitçe şifrelenmiş matematiksel işlem içeren bir dizi veri ilkel bir veritabanı kullanılarak gerçek haline dönüştürüldü ve hesaplanarak bulunan matematiksel işlemin sonucu dosyanın sonuna yazdırıldı.
+
 
 ### How To Run
-Dosyaları bilgisayarınızda hangi dizinde tutuyorsanız o path'leri sırasıyla alıyoruz.  <br/>
+Dosyaları bilgisayarınızda hangi dizinde tutuyorsanız o path'leri sırasıyla alıyoruz ve dosyaları açıyoruz.  <br/>
 
-" Please Enter TaskList Path: " <br/>
-c:\tasklist 
+#### dosyayı açma işlemi
+ifstream taskList;
+taskList.open("tasklistPath", ios::in | ios::binary); <br/>
 
-"Please Enter TaskIndex Path : "  <br/>
-c:\taskindex 
+tasklist, taskindex ve taskfile dosyalarının dosya yollarını veriyoruz..
 
-"Please Enter TaskFile Path: "  <br/>
-c:\taskfile 
-
-"Enter the File Path want to extract : "  <br/>
-c:\outputtask.txt 
+#### taskoutputfile dosyasını oluşturma işlemi
+ofstream ofile;
+ofile.open("taskoutputFilePath", ios::app);
